@@ -3,6 +3,7 @@ package quoters;
 import javax.annotation.PostConstruct;
 
 @Profiling
+@DeprecatedClass(newImpl = T1000.class)
 public class TerminatorQuoter implements Quoter{
 	private String msg;
 	private static final String TEXT_GREEN = "\u001B[32m";

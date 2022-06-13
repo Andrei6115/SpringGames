@@ -15,4 +15,7 @@
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
 
     <bean class="quoters.PostProxyInvokerContextListener"/>
+
+    <bean class="quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
+
 </beans>
